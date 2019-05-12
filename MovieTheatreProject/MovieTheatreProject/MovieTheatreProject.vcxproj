@@ -116,14 +116,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="MovieList.h" />
-    <ClInclude Include="MovieQueue.h" />
-    <ClInclude Include="Person.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Sale.h" />
+    <ClInclude Include="searchList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainTheatre.cpp" />
     <ClCompile Include="MovieList.cpp" />
-    <ClCompile Include="MovieQueue.cpp" />
-    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Sale.cpp" />
+    <ClCompile Include="searchList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,48 @@
 ﻿  MainTheatre.cpp
-  Person.cpp
-  Generating Code...
-  MovieTheatreProject.vcxproj -> C:\Users\J. Glenn\Desktop\MovieTheatreProject\Debug\MovieTheatreProject.exe
+c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(176): error C2440: 'initializing': cannot convert from 'SearchList<Sale>::Node<T> *' to 'SearchList<Sale>::Node<T>'
+          with
+          [
+              T=Sale
+          ]
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(176): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(166): note: while compiling class template member function 'void SearchList<Sale>::display(void)'
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\maintheatre.cpp(314): note: see reference to function template instantiation 'void SearchList<Sale>::display(void)' being compiled
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\maintheatre.cpp(89): note: see reference to class template instantiation 'SearchList<Sale>' being compiled
+c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(177): error C2451: conditional expression of type 'SearchList<Sale>::Node<T>' is illegal
+          with
+          [
+              T=Sale
+          ]
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(177): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(179): error C2819: type 'SearchList<Sale>::Node<T>' does not have an overloaded member 'operator ->'
+          with
+          [
+              T=Sale
+          ]
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.h(61): note: see declaration of 'SearchList<Sale>::Node<T>'
+          with
+          [
+              T=Sale
+          ]
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(179): note: did you intend to use '.' instead?
+c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(179): error C2232: '->SearchList<Sale>::Node<T>::info': left operand has 'struct' type, use '.'
+          with
+          [
+              T=Sale
+          ]
+c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(180): error C2819: type 'SearchList<Sale>::Node<T>' does not have an overloaded member 'operator ->'
+          with
+          [
+              T=Sale
+          ]
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.h(61): note: see declaration of 'SearchList<Sale>::Node<T>'
+          with
+          [
+              T=Sale
+          ]
+  c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(180): note: did you intend to use '.' instead?
+c:\users\j. glenn\desktop\final project\movietheatreproject\movietheatreproject\searchlist.cpp(180): error C2232: '->SearchList<Sale>::Node<T>::nextP': left operand has 'struct' type, use '.'
+          with
+          [
+              T=Sale
+          ]
